@@ -1,0 +1,28 @@
+What Is Rust?
+Rust is a system programming language that is safe and concurrent.
+
+It is inspired by many languages:
+
+System Programming Languages : (C, C++)
+
+In terms of syntax and performance.
+
+Functional Programming Languages : (Haskell, Erlang, Meta Language)
+
+In terms of syntax only.
+
+What Is Rust Used For?
+Rust is fit for:
+
+1)building powerful web applications
+2)embedded systems programming
+3)building distributed online services
+4) cross-platform command line support
+
+Who Is Using Rust?
+Rust is used in the production and building of apps by many companies.
+
+The famous among these are:
+DropBox 
+Atlassian 
+Amazon’s Firecracker 
