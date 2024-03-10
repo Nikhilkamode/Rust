@@ -1,0 +1,6 @@
+Why Is Rust Different?
+There are many reasons why Rust is different from other programming languages.
+Speed
+Rust pays no penalty for the abstraction and only pays for the features that are used. This improves the code quality and readability without affecting the run time cost.
+Safety
+Rust does not have a garbage collector. It ensures memory safety using ownership and its borrowing concept (discussed in the last chapter). The most significant difference between C, C++, and Rust is writing safe code. In Rust, the objects are managed by the programming language from the beginning to the end. The proper amount of memory required is allocated and automatically deallocated by the system when it is no longer in use.
