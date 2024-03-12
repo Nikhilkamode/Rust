@@ -1,0 +1,2 @@
+Character
+The variable is used to store a single character value, such as a single digit or a single alphabet. The value assigned to a char variable is enclosed in a single quote('') .
