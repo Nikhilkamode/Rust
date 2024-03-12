@@ -1,0 +1,5 @@
+Integers
+Variables of Integer data type hold whole number values. There are two subtypes of integer data type in Rust, based on the number of bits occupied by a variable in memory.
+
+Fixed Size Types
+The fixed integer types have a specific number of bits in their notation. This notation is a combination of a letter and a number. The former denotes the category of the integer, whether it is, unsigned or signed, and the latter denotes the size of an integer, i.e., 8, 16, 32, 64.
