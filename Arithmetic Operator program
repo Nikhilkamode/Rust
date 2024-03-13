@@ -9,3 +9,11 @@ fn main() {
     println!("Division:{}", a / b);
     println!("Modulus:{}", a % b);
 }
+
+Output
+Operand 1:4, Operand 2:3
+Addition:7
+Subtraction:1
+Multiplication:12
+Division:1
+Modulus:1
