@@ -1,0 +1,5 @@
+What Is Type Casting?
+Type casting is when you convert the data type of the variable to some other data type.
+
+Type Casting in Rust
+In Rust, typecasting is done using the as keyword followed by the desired data type of the variable or value.
