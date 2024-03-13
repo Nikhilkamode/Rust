@@ -1,0 +1,5 @@
+What Are Constant Variables?
+Constant variables are ones that are declared constant throughout the program scope, meaning, their value cannot be modified. They can be defined in global and local scope.
+
+Syntax
+They are declared using the const keyword followed by the name of the variable, colon (:), and then the data type of the variable.
