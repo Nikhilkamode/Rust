@@ -1,0 +1,16 @@
+What Are Logical Operators?
+Logical operators operate on true / false values.
+
+fn main() {
+  let a = true;
+  let b = false;
+  println!("Operand 1:{}, Operand 2:{}", a , b);
+  println!("AND:{}", a && b);
+  println!("OR:{}", a || b);
+  println!("NOT:{}", ! a);
+}
+Output
+Operand 1:true, Operand 2:false
+AND:false
+OR:true
+NOT:false
