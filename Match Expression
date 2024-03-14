@@ -1,0 +1,37 @@
+What Is a match Expression?
+Match expression checks if the current value corresponds to any value within the list of values.
+
+Match expression are similar to switch statement in languages like C and C++. They give a more compact code when compared with the if/else construct.
+
+fn main() {
+    // define a variable 
+    let x = 5;
+    // define match expression
+    match x {
+        1 => println!("Java"),
+        2 => println!("Python"),
+        3 => println!("C++"),
+        4 => println!("C#"),
+        5 => println!("Rust"),
+        6 => println!("Kotlin"),
+        _ => println!("Some other value"),
+    };
+}
+
+Method 2:
+fn main(){
+   // define a variable
+   let course = "Rust";
+   // return value of match expression in a variable
+   let found_course = match course {
+      "Rust" => "Rust",
+      "Java" => "Java",
+      "C++" => "C Plus Plus",
+      "C#" => "C Sharp",
+      _ => "Unknown Language"
+   };
+   println!("Course name : {}",found_course);
+}
+
+Output
+Course name : Rust
