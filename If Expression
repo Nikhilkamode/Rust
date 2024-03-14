@@ -1,0 +1,115 @@
+If Expression
+If expression takes a condition. If the condition within the if expression evaluates to be true, then the block of code is executed.
+
+fn main() {
+      //define a variable  
+      let learn_language = "Rust";
+      // if construct 
+      if learn_language == "Rust" { 
+         println!("You are learning Rust language!");
+      }
+}
+
+Output
+3.73s
+You are learning Rust language!
+
+If…else Expression
+In an if..else construct, if the condition within the if expression evaluates to be false, then the statement within the else block is executed.
+
+fn main() {
+    //define a variable 
+    let learn_language = "Rust";
+    // if else construct 
+    if learn_language == "Rust" { 
+        println!("You are learning Rust language!");
+    }
+    else {
+      println!("You are learning some other language!");
+    } 
+}
+
+Output
+4.44s
+You are learning Rust language!
+
+if…else if…else Expression
+If there are multiple conditions to be checked, then if..else if..else construct is used.
+
+fn main() {
+      //define a variable 
+      let learn_language="Rust";
+      // if..elseif..else construct 
+      if learn_language == "Rust" { 
+         println!("You are learning Rust language!");
+      }
+      else if learn_language == "Java" { 
+         println!("You are learning Java language!");
+      }
+      else {
+         println!("You are learning some other language!");
+      } 
+}
+
+Output
+You are learning Rust language!
+
+Nested if Expression
+An if expression inside the body of another if expression is referred to as a nested if expression.
+
+Note: The nested if expression can also be written with a AND expression in an if.
+
+if condition1 && condition2 
+{
+ //statement
+}
+
+This is true only if the second if statement is the only thing inside the first if.
+
+fn main() {
+    //define a variable 
+    let learn_language1 = "Rust";
+    let learn_language2 = "Java";
+    // outer if statement
+    if learn_language1 == "Rust" {  // inner if statement
+        if learn_language2 == "Java"{
+              println!("You are learning Rust and Java language!");
+        }
+    }
+    else {
+      println!("You are learning some other language!");
+    } 
+}
+
+Output
+You are learning Rust and Java language!
+
+Shorthand if
+Instead of writing a lengthy if-else construct, we can use a shorthand if.
+
+fn main() {
+    //define a variable  
+    let learn_language = "Rust";
+    // short hand construct
+    let res= if learn_language == "Rust" {"You are learning Rust language!"} else {"You are learning some other language!"};
+    println!("{}", res);
+}
+
+Output
+You are learning Rust language!
+
+fn main() {
+    let x = "Rust";
+
+    let y: bool = if x == "Rust" { true } else { false };
+
+    // let z: bool = if x == "Rust" { true; } else { false; };
+
+    println!("x:{}", x);
+    println!("y:{}", y);
+
+}
+
+Output
+x:Rust
+y:true
