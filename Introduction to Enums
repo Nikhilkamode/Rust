@@ -1,0 +1,49 @@
+What Are Enums?
+Enum is a custom data type that is composed of variants.
+Variants are definite values.
+The key is to enumerate all possible values and select one of the values from the list.
+
+Declare an Enum
+Enums are declared using the enum keyword followed by the name of the enum and then the body of the enum enclosed within curly braces { }. Within the curly braces, the variants of the enum are defined.
+
+Naming Convention
+
+The name of the enum and it’s variants are written in CamelCase.
+
+Initialize an Enum
+Enums are initialized using the name of the enum followed by a double colon(::) and then specifying the name of the variant of the enum.
+
+Note: To print the values of an enum, write #[derive(Debug)] at the beginning of the program code. Use the debug trait{:?} for printing the variants.
+
+// make this `enum` printable with `fmt::Debug`.
+#[derive(Debug)]
+enum KnightMove{
+   Horizontal, Vertical
+}
+fn main() {
+   // use enum
+   let horizontal_move = KnightMove::Horizontal;
+   let vertical_move = KnightMove::Vertical;
+   // print the enum values
+   println!("Move 1: {:?}", horizontal_move);
+   println!("Move 2: {:?}", vertical_move);
+}
+
+Output
+Move 1: Horizontal
+Move 2: Vertical
+
+Explanation
+main Function
+
+The body of the main function is defined from line 6 to line 13.
+
+On line 8 and line 9, enum is initialized.
+On line 11 and line 12, the values of enum are printed.
+On line 2 #[derive(Debug)] is declared which helps to print the values of the enum.
+
+enum
+
+On line 3, enum KnightMove is defined
+On line 4, variants of enum Horizontal and Vertical are defined.
+
