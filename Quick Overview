@@ -1,0 +1,60 @@
+This lesson gives a quick overview of the concepts discussed in this course.
+
+Concepts
+
+Variable
+ Explanation: holds data or reference to data
+
+Data type
+ Explanation: defines the type of value assigned to a variable. It can be primitive, or non-primitive. Primitives include integers, floats, characters, boolean, arrays, tuples, and strings.
+
+Array
+Explanation: sequence of elements of the same type
+
+Tuple
+Explanation: sequence of elements of different types
+
+Operators 
+ Explanation: tell the compiler to perform specific operations
+
+Conditional Statements
+Explanation: statements that execute if the associated condition evaluates to true
+
+Loops
+Explanation:blocks of code that keep on executing until a specific condition becomes true
+
+Functions
+Explanation: a reusable piece of code that is used to perform a set of tasks
+
+Strings 
+ Explanation :a sequence of character; primitive, i.e., String literal(&str) or non-primitive i.e., String object (String)
+
+Vector
+Explanation: A resizable array
+
+Structs
+Explanation: A composite data type that contains definite values called its variants
+
+Enum
+Explanation: a composite data type that contains definite values called variants
+
+Trait
+define an interface for multiple structs
+
+Generics
+Explanation: generalize a data type for struct, enum, trait, function, array and collections
+
+Stack
+Explanation: holds variable having primitive data type (size is known)
+
+Heap 
+Explanation: holds variables having non-primitive data type (size is known)
+
+Ownership
+Explanation: defines which variable will hold the value, Primitive data type copy their ownership and non-primitive data move their ownership during assignment
+
+Borrowing
+Explanation: share a variable value or share and mutate a variable value
+
+Lifetime
+Explanation: defines the scope for which the reference is valid
