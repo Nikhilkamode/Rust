@@ -1,0 +1,44 @@
+What Is a Nested Loop?
+A nested loop is a loop within a loop.
+
+fn main() {
+ for i in 1..5{ //outer loop
+  println!("Multiplication Table of : {}", i);
+   for j in 1..5 { // inner loop
+       println!("{} * {} = {}", i, j, i * j);
+   }
+ }
+}
+
+Output
+Multiplication Table of : 1
+1 * 1 = 1
+1 * 2 = 2
+1 * 3 = 3
+1 * 4 = 4
+Multiplication Table of : 2
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+Multiplication Table of : 3
+3 * 1 = 3
+3 * 2 = 6
+3 * 3 = 9
+3 * 4 = 12
+Multiplication Table of : 4
+4 * 1 = 4
+4 * 2 = 8
+4 * 3 = 12
+4 * 4 = 16
+
+Explanation
+Outer for Loop
+
+A for loop is defined on line 2
+The loop takes i as an iterator that iterates over values from 1 to 5.
+Inner for Loop
+
+A for loop is defined on line 4
+The loop takes j as an iterator that iterates over values from 1 to 5.
+For each iteration of the outer loop, the inner loop runs four times while printing the product of variables i and j.
